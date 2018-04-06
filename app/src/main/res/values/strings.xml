@@ -1,0 +1,258 @@
+<resources>
+
+    <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
+    <string name="app_name">Home Gardening</string>
+    <string name="herb_heading">Herbs/Medicinal Plants</string>
+    <string name="tulsi">Basil (Tulsi)</string>
+    <string name="shrub_heading">Shrubs (Small thick plants)</string>
+    <string name="climber_heading">Climbers</string>
+    <string name="aloevera">Aloe vera</string>
+    <string name="genda">Marigold (Genda)</string>
+    <string name="methi">Fenugreek (Methi)</string>
+    <string name="mint">Mint (Pudina)</string>
+    <string name="ashwagandha">Ashwagandha</string>
+    <string name="lemongrass">Lemon grass</string>
+    <string name="khus">Khus</string>
+    <string name="lavender">Lavender</string>
+    <string name="parsley">Parsley (Ajamod)</string>
+    <string name="coriander">Coriander (Dhania)</string>
+    <string name="desc_tulsi" formatted="true">Tulsi also known as basil leaves, is a fairly common plant in
+        Indian households. Considered holy by many religions, the tulsi plant is revered for
+        its divine properties. When eaten, Basil provides us healthy doses of vitamins A, K,
+        and C, as well as magnesium, iron, potassium, and calcium.</string>
+    <string name="desc_tulsiTip1"><b><i>Growing Tip: </i></b> Basil is a hardy plant that grows easily,
+        indoors or out. It doesn\'t need much care and requires watering only every other day. </string>
+    <string name="desc_tulsiGerm"><b><i>Germination: </i></b> 5 - 10 days</string>
+    <string name="desc_tulsiBenefits"><b><i>Benefits: </i></b> \n\t\t - Cures fever
+        \n\t\t - Beats diabetes \n\t\t - Protects the heart \n\t\t - Beats Stress
+        \n\t\t - Dissolves kidney stones \n\t\t - Beats cancer \n\t\t - Keeps your skin and hair healthy and glowing
+        \n\t\t - Cures headache</string>
+    <string name="desc_aloevera">Aloe vera plants are common household plants which can grow in a
+        variety of climates. Caring for an aloe vera plant is simple. This spiky green plant is very
+        easy to grow indoors, and has countless healing properties and uses around the house.
+    </string>
+    <string name="desc_aloeveraTip1"><b><i>Growing Tip: </i></b>
+        \n\t\t - Aloe vera needs well-drained, sandy potting soil.
+        \n\t\t - Bright, sunny conditions are ideal, though aloe vera will put up with just a little sunlight
+        \n\t\t - only watering about every two weeks or even less frequently, especially in the
+        winter. Don’t water a little every day or so, or try to keep the soil moist, because
+        you will rot out its roots.
+
+    </string>
+    <string name="desc_aloeveraGerm"><b><i>Germination: </i></b> 2 - 3 weeks</string>
+    <string name="desc_aloeveraBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Fighting cavities of Teeth and gums
+        \n\t\t - Soothes Rashes and Skin Irritations
+        \n\t\t - Treats Burns
+        \n\t\t - Heals Cold Sores
+        \n\t\t - Moisturizes Hair and Scalp
+        \n\t\t - Treats Constipation
+        \n\t\t - Helps with Digestion
+        \n\t\t - Boosts the Immune System
+        \n\t\t - Provides Antioxidants and Reduces Inflammation
+        \n\t\t - Treats Diabetes
+    </string>
+
+    <string name="desc_genda">The Marigold, a cheerful and easy plant to grow, and the first choice
+        among those who want a bright and splendid natural display for their homes! This annual plant
+        flowers with radiant sprays of multi-colored brass, copper and gold flowers all throughout
+        the summer season.</string>
+    <string name="desc_gendaTip1"><b><i>Growing Tip: </i></b>
+     Marigolds flower thrive in all zones. Due to their resilient nature, plant them almost anywhere
+        and they will start growing. For the best results, plant marigolds in places where they get
+        plenty of heat and sunlight.
+    </string>
+    <string name="desc_gendaGerm"><b><i>Germination: </i></b> 5 - 10 days</string>
+    <string name="desc_gendaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Arrests Inflammation
+        \n\t\t - Treats Acne
+        \n\t\t - Fights A Fever
+        \n\t\t - Stops Bleeding In Gums
+        \n\t\t - Protects Your Eyes, Treats Conjunctivitis
+        \n\t\t - Tackles Fungal Infections
+        \n\t\t - Aids Wound Healing And Repairs Tissue
+        \n\t\t - Treats Dermatitis, Burns, And Inflammatory Skin Conditions
+        \n\t\t - Stops Hemorrhoid Bleeding
+        \n\t\t - Eases Cramps And Digestive Problems
+        \n\t\t - Treats Ear Pain
+
+    </string>
+
+    <string name="desc_methi">Fenugreek or methi leaves are pungent and aromatic. They are great for
+        health and have been traditionally used as a spice as well as medicine in the Indian subcontinent,
+        the Middle East and northern Africa. You can use the leaves dried or fresh, seeds ground or
+        whole as a flavor to any menu.</string>
+    <string name="desc_methiTip1"><b><i>Growing Tip: </i></b>
+        Methi prefers neutral soil with at least 4 hours of sun and shade in afternoon. Requires
+        regular watering.
+    </string>
+    <string name="desc_methiGerm"><b><i>Germination: </i></b> 2-4 days</string>
+    <string name="desc_methiBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Improves Digestive Problems and Cholesterol Levels
+        \n\t\t - Reduces Inflammation Inside the Body
+        \n\t\t - Promotes Milk Flow in Breastfeeding
+        \n\t\t - Lowers Inflammation from Outside the Body
+        \n\t\t - Adds Flavor and Spice to Food
+        \n\t\t - Helps with Eating Disorders
+        \n\t\t - Improves Exercise Performance
+    </string>
+
+    <string name="desc_mint">Mint plants are sturdy perennial herb plants that are extremely easy to
+        grow in full sun or part shade. Mints work well in any garden setting. Mint plants can also
+        be a wonderful ornamental plant; lovely foliage, some flowers and that incredible aroma
+        makes mint a essential herb plant for any garden.
+    </string>
+    <string name="desc_mintTip1"><b><i>Growing Tip: </i></b>
+        All mints prefer a cool, moist spot in partial shade but will also grow in full sun. One
+        plant of each cultivar you select will soon provide more than enough mint for home use.
+    </string>
+    <string name="desc_mintGerm"><b><i>Germination: </i></b> 10 - 15 days</string>
+    <string name="desc_mintBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Aids in Digestion
+        \n\t\t - Treats Nausea and Headache
+        \n\t\t - Prevents Respiratory Disorders
+        \n\t\t - Treats Asthma
+        \n\t\t - Aids in Breast Feeding
+        \n\t\t - Reduces Depression and Fatigue
+        \n\t\t - Skin Care
+        \n\t\t - Prevents Memory Loss
+        \n\t\t - Weight Loss
+        \n\t\t - Improves Sterility
+        \n\t\t - Oral Care
+        \n\t\t - Cures Allergies and Hay Fever
+        \n\t\t - Prevents Cancer
+    </string>
+
+    <string name="desc_ashwagandha">Ashwagandha has become one of the most popular Ayurvedic herbs
+        in the Western world. By providing a nourishing, yet energizing effect, ashwagandha can
+        support a healthy nervous system. With the use of ashwagandha, stress doesn’t impact the
+        nervous system with such intensity.</string>
+    <string name="desc_ashwagandhaTip1"><b><i>Growing Tip: </i></b>
+        \n\t\t - Grows in dry and sunny location.
+        \n\t\t - needs sandy and well-draining soil.
+        \n\t\t - Needs less water.
+    </string>
+    <string name="desc_ashwagandhaGerm"><b><i>Germination: </i></b> 2 weeks</string>
+    <string name="desc_ashwagandhaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - It\'s an Ancient Medicinal Herb
+        \n\t\t - Can Reduce Blood Sugar Levels
+        \n\t\t - Has Anti-Cancer Properties
+        \n\t\t - Can Reduce Cortisol Levels
+        \n\t\t - Reduce Stress and Anxiety
+        \n\t\t - Reduce Symptoms of Depression
+        \n\t\t - Can Boost Testosterone and Increase Fertility in Men
+        \n\t\t - Increase Muscle Mass and Strength
+        \n\t\t - Reduce Inflammation
+        \n\t\t - Lower Cholesterol 
+        \n\t\t - May Improve Brain Function, Including Memory
+    </string>
+
+    <string name="desc_lemongrass">The Lemongrass plant grows largely in clumps. It has long, thin,
+        flat greenish-grey tinged reeds. It has exquisite fresh, lemony fragrance that intensifies
+        when you crush or stroke the leaves.</string>
+    <string name="desc_lemongrassTip1"><b><i>Growing Tip: </i></b>
+        Grow in a pot or container in a sunny spot indoors. Grows quickly.
+    </string>
+    <string name="desc_lemongrassGerm"><b><i>Germination: </i></b> 5 to 21 days</string>
+    <string name="desc_lemongrassBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Helps Digestion
+        \n\t\t - Controls Cholesterol Levels
+        \n\t\t - Cleanses and Detoxifies
+        \n\t\t - Heals Colds and Flu
+        \n\t\t - Fights Cancer
+        \n\t\t - Reduces Arthritis Pain
+    </string>
+
+    <string name="desc_khus">khus (Vetiver) plant is aromatic and has a characteristic fragrance.
+        It has long, thin and rigid leaves. The roots are spongy, branched and most important part
+        used as medicine.</string>
+    <string name="desc_khusTip1"><b><i>Growing Tip: </i></b>
+        requires well-drained soil and full sun.
+    </string>
+    <string name="desc_khusGerm"><b><i>Germination: </i></b> a</string>
+    <string name="desc_khusBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Utilized for perfumes, aromatherapy, cosmetic, creams, herbal skin care as well as
+        soaps used in a Ayurveda.
+        \n\t\t - Treats sores and acne
+        \n\t\t - Khus roots can improve red blood cells deficiency
+        \n\t\t - Treats poor blood circulation
+        \n\t\t - Treats dry skin, cracked and brittle skin, wounds, cuts.
+        \n\t\t - Cures arthritis as well as muscular aches and pains.
+    </string>
+    <string name="desc_lavender">Lavender is one of the most popular flowering herbs. Easy to grow,
+        lavender is loved for its beautiful flowers and wonderful aroma. All you need is to grow and
+        maintain this fragrant flowering herb is a suitable spot in the garden.
+    </string>
+    <string name="desc_lavenderTip1"><b><i>Growing Tip: </i></b>
+        Lavender seeds are slow to germinate. This plant thrives best under warm, sunny conditions
+        in well-drained soil.
+    </string>
+    <string name="desc_lavenderGerm"><b><i>Germination: </i></b> 3 - 4 weeks</string>
+    <string name="desc_lavenderBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Reduces Anxiety and Stress
+        \n\t\t - Treats Sleep Issues
+        \n\t\t - Skin Care
+        \n\t\t - Antiseptic Ability
+        \n\t\t - Hair Care
+        \n\t\t - Protects Heart Health
+    </string>
+
+    <string name="desc_parsley">Parsley is a plant with bright green, feather-like leaves. This
+        popular herb is used in sauces, salads, and especially soups, as it lessens the need for salt.
+        Not only is parsley the perfect garnish, it’s also good for you; it’s rich in iron and
+        vitamins A and C.
+    </string>
+    <string name="desc_parsleyTip1"><b><i>Growing Tip: </i></b>
+        Parsley needs moist, well-turned soil. It does well in both full-sun and part-sun
+        environments and needs less water.
+    </string>
+    <string name="desc_parsleyGerm"><b><i>Germination: </i></b> 10 - 25 days</string>
+    <string name="desc_parsleyBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Controls Diabetes
+        \n\t\t - Controls Arthritis
+        \n\t\t - Treats toothaches, bruises, insect bites, and rough skin.
+        \n\t\t - Controls kidney stones, urinary tract infections, and gallbladder stones.
+        \n\t\t - Strengthens the Immune System
+    </string>
+    <string name="desc_coriander">Coriander is a highly aromatic herb that is used to enhance the
+        flavor of many South-East Asian and Mexican cuisines. All parts of the plant are edible,
+        but the fresh leaves and the dried seeds are the parts most traditionally used in cooking.
+    </string>
+    <string name="desc_corianderTip1"><b><i>Growing Tip: </i></b>
+        Coriander requires temparate climate. It doesn\'t survive in frosty conditions or even in extreme heat.
+    </string>
+    <string name="desc_corianderGerm"><b><i>Germination: </i></b> 2 - 3 weeks</string>
+    <string name="desc_corianderBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Lower Blood Sugar
+        \n\t\t - Ease Digestive Discomfort
+        \n\t\t - Decrease Blood Pressure
+        \n\t\t - Fight Food Poisoning
+        \n\t\t - Improve Cholesterol Levels
+        \n\t\t - Help Urinary Tract Infections
+        \n\t\t - Support Healthy Menstrual Function
+        \n\t\t - May Prevent Neurological Inflammation and Disease
+    </string>
+    <string name="rose">Rose (Gulab)</string>
+    <string name="hibisbus">Hibiscus (Jaswand)</string>
+    <string name="jasmine">Jasmine (Chameli)</string>
+    <string name="bougainvillea">Bougainvillea</string>
+    <string name="nerium_oleander">Nerium Oleander</string>
+    <string name="fern">Fern</string>
+    <string name="arecapalm">Areca Palm</string>
+    <string name="dracaena">Dracaena</string>
+    <string name="azalea">Azalea</string>
+    <string name="dahlia">Dahlia</string>
+    <string name="lily">Lily</string>
+    <string name="orchid">Orchid</string>
+    <string name="home">Home</string>
+    <string name="navigation_drawer_open">Open Navigation drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <string name="about_heading">About Home Gardening</string>
+    <string name="about_app">Home Gardening is an app which provides information about the plants
+        that you can easily plant at home and will make your home decorative and look beautiful. It
+        also provides you information about the necessary care and requirements for the various plants,
+        their germination time and benefits.
+    </string>
+    <string name="about_footer">HAPPY GARDENING !!!</string>
+
+</resources>

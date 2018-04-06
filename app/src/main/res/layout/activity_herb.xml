@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_dark"
+    tools:context="com.example.rucha.homegardening.HerbActivity">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fadingEdge="horizontal">
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtviewHerb"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:background="@color/colorPrimaryDark"
+                    android:fontFamily="cursive"
+                    android:paddingTop="5dp"
+                    android:text="@string/herb_heading"
+                    android:textAlignment="center"
+                    android:textColor="@android:color/background_light"
+                    android:textSize="24sp"
+                    android:textStyle="bold" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trTulsi"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/txtviewTulsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/tulsi"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgviewTulsi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="2dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="2dp"
+                    app:srcCompat="@drawable/tulsi" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trAloevera">
+
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/aloevera"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgviewAloe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/aloevera" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trGenda"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/genda"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgviewgenda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/genda" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trMethi">
+
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/methi"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/methi" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trMint"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/mint"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/mint" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trAshwagandha">
+
+                <TextView
+                    android:id="@+id/textview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/ashwagandha"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/ashwagandha" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trLemongrass"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/lemongrass"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/lemongrass" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trLavender">
+
+                <TextView
+                    android:id="@+id/textview9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/lavender"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/lavender" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/trCoriander"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/coriander"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/coriander" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trKhus">
+
+                <TextView
+                    android:id="@+id/textview8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/khus"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/khus" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trParsley"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/parsley"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/parsley" />
+            </TableRow>
+
+        </TableLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
