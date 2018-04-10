@@ -12,14 +12,14 @@
             android:id="@+id/nav_about"
             android:icon="@drawable/ic_menu_about"
             android:title="About App" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+        <!--<item-->
+            <!--android:id="@+id/nav_slideshow"-->
+            <!--android:icon="@drawable/ic_menu_slideshow"-->
+            <!--android:title="Slideshow" />-->
         <item
             android:id="@+id/nav_reviews"
             android:icon="@drawable/ic_menu_rate_review"
-            android:title="Reviews" />
+            android:title="Rate &amp; Review" />
     </group>
 
     <item android:title="Communicate">

@@ -254,5 +254,12 @@
         their germination time and benefits.
     </string>
     <string name="about_footer">HAPPY GARDENING !!!</string>
+    <string name="blue_morning_glory">Blue morning glory</string>
+    <string name="moneyplant">Money Plant</string>
+    <string name="star_jasmine">Star Jasmine</string>
+    <string name="flame_vine">Flame Vine</string>
+    <string name="butterfly_pea">Butterfly Pea</string>
+    <string name="tomatoes">Tomatoes</string>
+    <string name="loofah">Loofah</string>
 
 </resources>

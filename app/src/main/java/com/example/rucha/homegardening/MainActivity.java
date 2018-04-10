@@ -1,6 +1,9 @@
 package com.example.rucha.homegardening;
 
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -8,24 +11,37 @@ import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.TextView;
 
-
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener, NavigationView.OnNavigationItemSelectedListener {
 
     public TextView mtxtviewHerb;
     public TextView mtxtviewShrub;
     public TextView mtxtviewClimber;
+    public Context context;
+    private AdView mAdView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+//        Initialize mobile ad
+        MobileAds.initialize(this, "ca-app-pub-8540792007814269~3729382015");
+
+//        Call ads
+        mAdView = findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -81,9 +97,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             startActivity(intentAbout);
 
-        } else if (id == R.id.nav_slideshow) {
-
         } else if (id == R.id.nav_reviews) {
+            context=MainActivity.this;
+            showRateDialog(context);
 
         } else if (id == R.id.nav_share) {
 //            Sharing our app
@@ -102,12 +118,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 //e.toString();
             }
 
-//            Intent sharingIntent = new Intent(Intent.ACTION_SEND);
-//            sharingIntent.setType("text/plain");
-//            sharingIntent.putExtra(Intent.EXTRA_SUBJECT, "Share this app");
-//            sharingIntent.putExtra(Intent.EXTRA_TEXT, "Welcome to Home Gardening");
-//            sharingIntent.putExtra(Intent.EXTRA_ORIGINATING_URI,
-//            startActivity(Intent.createChooser(sharingIntent, "Share via"));
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -125,6 +135,35 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         else {
             super.onBackPressed();
         }
+    }
+
+    public static void showRateDialog(final Context context) {
+        AlertDialog.Builder builder = new AlertDialog.Builder(context)
+                .setTitle("Rate application")
+                .setMessage("Please, rate the app at PlayMarket")
+                .setPositiveButton("RATE", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        if (context != null) {
+                            String link = "market://details?id=";
+                            try {
+                                // play market available
+                                context.getPackageManager()
+                                        .getPackageInfo("com.android.vending", 0);
+                                // not available
+                            } catch (PackageManager.NameNotFoundException e) {
+                                e.printStackTrace();
+                                // should use browser
+                                link = "https://play.google.com/store/apps/details?id=";
+                            }
+                            // starts external action
+                            context.startActivity(new Intent(Intent.ACTION_VIEW,
+                                    Uri.parse(link + context.getPackageName())));
+                        }
+                    }
+                })
+                .setNegativeButton("CANCEL", null);
+        builder.show();
     }
 
 }

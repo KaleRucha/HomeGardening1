@@ -2,6 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.rucha.homegardening">
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,7 +19,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HerbActivity" />
+        <activity
+            android:name=".HerbActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rucha.homegardening.MainActivity" />
+        </activity>
         <activity android:name=".Herbs.TulsiActivity" />
         <activity android:name=".Herbs.AloeveraActivity" />
         <activity android:name=".Herbs.MarigoldActivity" />
@@ -30,11 +37,46 @@
         <activity android:name=".Herbs.LavenderActivity" />
         <activity android:name=".Herbs.ParsleyActivity" />
         <activity android:name=".Herbs.CorianderActivity" />
-        <activity android:name=".ShrubActivity" />
-        <activity android:name=".ClimberActivity" />
-        <activity android:name=".AboutAppActivity"
+        <activity
+            android:name=".ShrubActivity"
             android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rucha.homegardening.MainActivity" />
         </activity>
+        <activity
+            android:name=".ClimberActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rucha.homegardening.MainActivity" />
+        </activity>
+        <activity
+            android:name=".AboutAppActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.rucha.homegardening.MainActivity" />
+        </activity>
+        <activity android:name=".Climbers.BougainvilleaActivity" />
+        <activity android:name=".Climbers.MorningGloryActivity" />
+        <activity android:name=".Climbers.MoneyPlantActivity" />
+        <activity android:name=".Climbers.StarJasmineActivity" />
+        <activity android:name=".Climbers.FlameVineActivity" />
+        <activity android:name=".Climbers.ButterflyPeaActivity" />
+        <activity android:name=".Climbers.TomatoesActivity" />
+        <activity android:name=".Climbers.LoofahActivity" />
+        <activity android:name=".Shrubs.RoseActivity" />
+        <activity android:name=".Shrubs.HibiscusActivity" />
+        <activity android:name=".Shrubs.JasmineActivity" />
+        <activity android:name=".Shrubs.NeriumOleanderActivity" />
+        <activity android:name=".Shrubs.FernActivity" />
+        <activity android:name=".Shrubs.ArecaPalmActivity" />
+        <activity android:name=".Shrubs.DracaenaActivity" />
+        <activity android:name=".Shrubs.AzaleaActivity" />
+        <activity android:name=".Shrubs.DahliaActivity" />
+        <activity android:name=".Shrubs.LilyActivity" />
+        <activity android:name=".Shrubs.OrchidActivity"></activity>
     </application>
 
 </manifest>
