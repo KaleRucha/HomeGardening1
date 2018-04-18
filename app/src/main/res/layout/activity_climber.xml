@@ -59,72 +59,26 @@
                     app:srcCompat="@drawable/bouganvalia" />
             </TableRow>
 
-            <TableRow android:id="@+id/trBlue_morning_Glory">
+            <TableRow android:id="@+id/trButterflyPea">
 
                 <TextView
-                    android:id="@+id/textview2"
+                    android:id="@+id/textview6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="30dp"
                     android:layout_marginTop="10dp"
                     android:fontFamily="sans-serif"
-                    android:text="@string/blue_morning_glory"
+                    android:text="@string/butterfly_pea"
                     android:textSize="20sp" />
 
                 <ImageView
-                    android:id="@+id/imgviewAloe"
+                    android:id="@+id/imgview3"
                     android:layout_width="wrap_content"
                     android:layout_height="50dp"
                     android:paddingBottom="3dp"
                     android:paddingRight="120dp"
                     android:paddingTop="3dp"
-                    app:srcCompat="@drawable/morning_glory" />
-            </TableRow>
-
-            <TableRow
-                android:id="@+id/trMoney_Plant"
-                android:background="?attr/colorControlHighlight">
-
-                <TextView
-                    android:id="@+id/textview3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="sans-serif"
-                    android:text="@string/moneyplant"
-                    android:textSize="20sp" />
-
-                <ImageView
-                    android:id="@+id/imgviewgenda"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:paddingBottom="3dp"
-                    android:paddingRight="140dp"
-                    android:paddingTop="3dp"
-                    app:srcCompat="@drawable/money_plant" />
-            </TableRow>
-
-            <TableRow android:id="@+id/trStar_jasmine">
-
-                <TextView
-                    android:id="@+id/textview4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="sans-serif"
-                    android:text="@string/star_jasmine"
-                    android:textSize="20sp" />
-
-                <ImageView
-                    android:id="@+id/imgview"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:paddingBottom="3dp"
-                    android:paddingRight="120dp"
-                    android:paddingTop="3dp"
-                    app:srcCompat="@drawable/star_jasmine" />
+                    app:srcCompat="@drawable/butterfly_pea" />
             </TableRow>
 
             <TableRow
@@ -151,52 +105,6 @@
                     app:srcCompat="@drawable/flame_vine" />
             </TableRow>
 
-            <TableRow android:id="@+id/trButterflyPea">
-
-                <TextView
-                    android:id="@+id/textview6"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="sans-serif"
-                    android:text="@string/butterfly_pea"
-                    android:textSize="20sp" />
-
-                <ImageView
-                    android:id="@+id/imgview3"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:paddingBottom="3dp"
-                    android:paddingRight="120dp"
-                    android:paddingTop="3dp"
-                    app:srcCompat="@drawable/butterfly_pea" />
-            </TableRow>
-
-            <TableRow
-                android:id="@+id/trTomatoes"
-                android:background="?attr/colorControlHighlight">
-
-                <TextView
-                    android:id="@+id/textview7"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="sans-serif"
-                    android:text="@string/tomatoes"
-                    android:textSize="20sp" />
-
-                <ImageView
-                    android:id="@+id/imgview4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:paddingBottom="3dp"
-                    android:paddingRight="120dp"
-                    android:paddingTop="3dp"
-                    app:srcCompat="@drawable/tomatoes" />
-            </TableRow>
-
             <TableRow
                 android:id="@+id/trLoofah">
 
@@ -219,6 +127,103 @@
                     android:paddingTop="3dp"
                     app:srcCompat="@drawable/loofah" />
             </TableRow>
+
+
+            <TableRow
+                android:id="@+id/trMoney_Plant"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/moneyplant"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgviewgenda"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="140dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/money_plant" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trBlue_morning_Glory">
+
+                <TextView
+                    android:id="@+id/textview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/blue_morning_glory"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgviewAloe"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="120dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/morning_glory" />
+            </TableRow>
+
+            <TableRow android:id="@+id/trStar_jasmine"
+                android:background="?attr/colorControlHighlight">
+
+                <TextView
+                    android:id="@+id/textview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/star_jasmine"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="120dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/star_jasmine" />
+            </TableRow>
+
+
+
+            <TableRow
+                android:id="@+id/trTomatoes"
+                >
+
+                <TextView
+                    android:id="@+id/textview7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="sans-serif"
+                    android:text="@string/tomatoes"
+                    android:textSize="20sp" />
+
+                <ImageView
+                    android:id="@+id/imgview4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="50dp"
+                    android:paddingBottom="3dp"
+                    android:paddingRight="120dp"
+                    android:paddingTop="3dp"
+                    app:srcCompat="@drawable/tomatoes" />
+            </TableRow>
+
 
         </TableLayout>
     </ScrollView>

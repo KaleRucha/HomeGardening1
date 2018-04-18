@@ -3,6 +3,7 @@ package com.example.rucha.homegardening.Herbs;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -23,6 +24,10 @@ public class MethiActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_methi);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         mImgbtnPrev = findViewById(R.id.imgbtnPrev);
         mImgbtnPrev.setOnClickListener(this);
@@ -57,18 +62,22 @@ public class MethiActivity extends AppCompatActivity implements View.OnClickList
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_home:
+                finish();
                 Intent intenthome = new Intent(MethiActivity.this, MainActivity.class);
                 startActivity(intenthome);
                 break;
             case R.id.action_herb:
+                finish();
                 Intent intentherb = new Intent(MethiActivity.this, HerbActivity.class);
                 startActivity(intentherb);
                 break;
             case R.id.action_shrub:
+                finish();
                 Intent intentshrub = new Intent(MethiActivity.this, ShrubActivity.class);
                 startActivity(intentshrub);
                 break;
             case R.id.action_climber:
+                finish();
                 Intent intentclimber = new Intent(MethiActivity.this, ClimberActivity.class);
                 startActivity(intentclimber);
                 break;

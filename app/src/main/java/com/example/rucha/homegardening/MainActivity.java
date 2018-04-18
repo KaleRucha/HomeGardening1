@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Matrix;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
@@ -15,20 +16,29 @@ import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.MenuItem;
+import android.view.MotionEvent;
+import android.view.ScaleGestureDetector;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.MobileAds;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener, NavigationView.OnNavigationItemSelectedListener {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener,
+        NavigationView.OnNavigationItemSelectedListener{
 
     public TextView mtxtviewHerb;
     public TextView mtxtviewShrub;
     public TextView mtxtviewClimber;
     public Context context;
     private AdView mAdView;
+
+    private ScaleGestureDetector mScaleGesDetector;
+    private float mScale = 1f;
+    private Matrix matrix = new Matrix();
+    ImageView mImgviewHome;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,6 +53,16 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        mAdView.setOnClickListener(this);
+
+//        Zoom layout starts --->
+//        mImgviewHome = (ImageView)findViewById(R.id.imgviewHome);
+//        TouchImageView img = new TouchImageView(this);
+//        img.setImageResource(R.drawable.home);
+//        img.setMaxZoom(4f);
+//        setContentView(img);
+//       zoom layout ends --->
+
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -51,6 +71,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         mtxtviewShrub = findViewById(R.id.txtviewShrub);
         mtxtviewShrub.setOnClickListener(this);
+
+        mtxtviewClimber = findViewById(R.id.txtviewClimber);
+        mtxtviewClimber.setOnClickListener(this);
 
 //        Navigation View starts
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -64,6 +87,24 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         navigationView.setNavigationItemSelectedListener(this);
 //        Navigation View ends
 
+
+    }
+
+    private class ScaleListener extends ScaleGestureDetector.SimpleOnScaleGestureListener{
+        @Override
+        public boolean onScale(ScaleGestureDetector detector) {
+            mScale = mScale * detector.getScaleFactor();
+            mScale = Math.max(0.1f, Math.min(mScale, 5.0f));
+            matrix.setScale(mScale, mScale);
+            mImgviewHome.setImageMatrix(matrix);
+            return true;
+        }
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        mScaleGesDetector.onTouchEvent(event);
+        return true;
     }
 
     @Override
@@ -71,16 +112,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 //        Calling activity for Herb
         if (view==mtxtviewHerb) {
-
+            finish();
             Intent intentHerb = new Intent(MainActivity.this, HerbActivity.class);
             startActivity(intentHerb);
         }
 
-//        Calling activity for Herb
-        if (view==mtxtviewShrub) {
-
+//        Calling activity for Shrub
+        else if (view==mtxtviewShrub) {
+            finish();
             Intent intentShrub = new Intent(MainActivity.this, ShrubActivity.class);
             startActivity(intentShrub);
+        }
+
+//        Calling activity for Climbers
+        else if (view==mtxtviewClimber) {
+            finish();
+            Intent intentClimber = new Intent(MainActivity.this, ClimberActivity.class);
+            startActivity(intentClimber);
         }
 
     }
@@ -166,4 +214,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         builder.show();
     }
 
+//    Ad events start --->
+    @Override
+    public void onResume() {
+        super.onResume();
+
+        // Resume the AdView.
+        mAdView.resume();
+    }
+
+    @Override
+    public void onDestroy() {
+        // Destroy the AdView.
+        mAdView.destroy();
+        super.onDestroy();
+    }
+//    Ad events end --->
+
+//    Zoom events start --->
 }

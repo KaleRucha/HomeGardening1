@@ -89,61 +89,61 @@ public class HerbActivity extends AppCompatActivity implements View.OnClickListe
             startActivity(intentTulsi);
         }
 
-        if (view==mTrAloevera) {
+        else if (view==mTrAloevera) {
 
             Intent intentaloevera = new Intent(HerbActivity.this, AloeveraActivity.class);
             startActivity(intentaloevera);
         }
 
-        if (view==mTrGenda) {
+        else if (view==mTrGenda) {
 
             Intent intentgenda = new Intent(HerbActivity.this, MarigoldActivity.class);
             startActivity(intentgenda);
         }
 
-        if (view==mTrMethi) {
+        else if (view==mTrMethi) {
 
             Intent intentmethi = new Intent(HerbActivity.this, MethiActivity.class);
             startActivity(intentmethi);
         }
 
-        if (view==mTrMint) {
+        else if (view==mTrMint) {
 
             Intent intentmint = new Intent(HerbActivity.this, MintActivity.class);
             startActivity(intentmint);
         }
 
-        if (view==mTrAshwagandha) {
+        else if (view==mTrAshwagandha) {
 
             Intent intentashwagandha = new Intent(HerbActivity.this, AshwagandhaActivity.class);
             startActivity(intentashwagandha);
         }
 
-        if (view==mTrLemongrass) {
+        else if (view==mTrLemongrass) {
 
             Intent intentlemongrass = new Intent(HerbActivity.this, LemongrassActivity.class);
             startActivity(intentlemongrass);
         }
 
-        if (view==mTrKhus) {
+        else if (view==mTrKhus) {
 
             Intent intentkhus = new Intent(HerbActivity.this, KhusActivity.class);
             startActivity(intentkhus);
         }
 
-        if (view==mTrLavender) {
+        else if (view==mTrLavender) {
 
             Intent intentlavender = new Intent(HerbActivity.this, LavenderActivity.class);
             startActivity(intentlavender);
         }
 
-        if (view==mTrParsley) {
+        else if (view==mTrParsley) {
 
             Intent intentparsley = new Intent(HerbActivity.this, ParsleyActivity.class);
             startActivity(intentparsley);
         }
 
-        if (view==mTrCoriander) {
+        else if (view==mTrCoriander) {
 
             Intent intentcoriander = new Intent(HerbActivity.this, CorianderActivity.class);
             startActivity(intentcoriander);
@@ -161,18 +161,22 @@ public class HerbActivity extends AppCompatActivity implements View.OnClickListe
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_home:
+                finish();
                 Intent intenthome = new Intent(HerbActivity.this, MainActivity.class);
                 startActivity(intenthome);
                 break;
             case R.id.action_herb:
+                finish();
                 Intent intentherb = new Intent(HerbActivity.this, HerbActivity.class);
                 startActivity(intentherb);
                 break;
             case R.id.action_shrub:
+                finish();
                 Intent intentshrub = new Intent(HerbActivity.this, ShrubActivity.class);
                 startActivity(intentshrub);
                 break;
             case R.id.action_climber:
+                finish();
                 Intent intentclimber = new Intent(HerbActivity.this, ClimberActivity.class);
                 startActivity(intentclimber);
                 break;

@@ -106,28 +106,6 @@
                     app:srcCompat="@drawable/jasmine" />
             </TableRow>
 
-            <TableRow android:id="@+id/trBougainvillea">
-
-                <TextView
-                    android:id="@+id/textview4"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
-                    android:fontFamily="sans-serif"
-                    android:text="@string/bougainvillea"
-                    android:textSize="20sp" />
-
-                <ImageView
-                    android:id="@+id/imgview"
-                    android:layout_width="wrap_content"
-                    android:layout_height="50dp"
-                    android:paddingBottom="3dp"
-                    android:paddingRight="190dp"
-                    android:paddingTop="3dp"
-                    app:srcCompat="@drawable/bouganvalia" />
-            </TableRow>
-
             <TableRow
                 android:id="@+id/trNerium_Oleander"
                 android:background="?attr/colorControlHighlight">

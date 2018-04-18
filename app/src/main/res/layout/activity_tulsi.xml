@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorAccent"
     tools:context="com.example.rucha.homegardening.HerbActivity">
+
+    <include layout="@layout/content_toolbar"></include>
 
     <ScrollView
         android:layout_width="wrap_content"
@@ -22,9 +24,27 @@
                 <ImageView
                     android:id="@+id/imageView3"
                     android:layout_width="wrap_content"
-                    android:layout_height="215dp"
+                    android:layout_height="315dp"
                     app:srcCompat="@drawable/tulsi" />
+                <!--<ortiz.touch.TouchImageView-->
+                    <!--android:id="@+id/imageView"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginLeft="5.0dip"-->
+                    <!--android:layout_marginRight="5.0dip"-->
+                    <!--android:contentDescription="@null" />-->
             </TableRow>
+
+            <!--<TableRow>-->
+                <!--<Button-->
+                    <!--android:id="@+id/loadButton"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Load Icon"-->
+                    <!--android:textSize="24sp">-->
+                <!--</Button>-->
+
+            <!--</TableRow>-->
 
             <TableRow
                 android:layout_width="match_parent"
@@ -124,4 +144,4 @@
 
     </ScrollView>
 
-</LinearLayout>
+</android.support.design.widget.CoordinatorLayout>

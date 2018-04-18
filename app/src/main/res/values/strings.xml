@@ -261,5 +261,416 @@
     <string name="butterfly_pea">Butterfly Pea</string>
     <string name="tomatoes">Tomatoes</string>
     <string name="loofah">Loofah</string>
+    <string name="desc_rose">Roses are one of the most beautiful, traditional, and fragrant flowers
+        that you can plant in your garden. "Every rose has its thorn," but these gorgeous flowers
+        don't actually require a lot of care. All they really need is some attention and a sunny spot
+        with good drainage.
+    </string>
+    <string name="desc_roseTip1"><b><i>Growing Tip: </i></b>
+        \n\t\t - The most appropriate time to plant the roses is during autumn or during spring.
+        \n\t\t - Use a soil mixture that is rich in nutrients and slightly permeable
+        \n\t\t - If you have noticed that the soil dries out very quickly you may have to water your rose plant every day.
+        \n\t\t - For healthy rose plant you should place them near a south-facing window with good ventilation
+    </string>
+
+    <string name="desc_roseGerm"><b><i>Germination: </i></b> About 6 - weeks</string>
+    <string name="desc_roseBenefits"><b><i>Benefits: </i></b>
+    \n\t\t 1. Health Benifit
+    \n\t\t - Enriched With Vital Vitamins
+    \n\t\t - Fights Depression
+    \n\t\t - Effective Against Heart Problems and HIV
+    \n\t\t - Rose Oil Has Multiple Benefits
+    \n\t\t - Rose Tea Cures Infections
+    \n\t\t - Rose Water Relieves Constipation
+    \n\t\t 2. Beauty Benefits-
+    \n\t\t - Antibacterial
+    \n\t\t - Anti-inflammatory
+    \n\t\t - Antioxidants
+    \n\t\t - Moisturizing
+    \n\t\t - Naturally fragrant
+    \n\t\t - Relaxing
+    \n\t\t - Toning
+    </string>
+    <string name="desc_hibiscus">Hibiscus are large shrubs or small trees that produce huge, colorful,
+        trumpet-shaped flowers over a long season. They have dark green leaves and can grow to 15 feet
+        tall in frost-free areas. Flowers may be up to 6 inches diameter, with colors ranging from yellow
+        to peach to red.They are generally divided into four groups: Hardy Hibiscus, Rose of Sharon,
+        Tropical Hibiscus, and all the various species of Hibiscus.
+    </string>
+    <string name="desc_hibiscusTip1"><b><i>Growing Tip: </i></b>
+        Select a site  Hibiscus require full sun and well-drained soil and also adapt well to growing
+        in containers. Hibiscus require at least 1 inch of rain (or equivalent watering) each week.
+        They like to be constantly moist, but not wet.
+    </string>
+    <string name="desc_hibiscusGerm"><b><i>Germination: </i></b> 1 to 4 weeks</string>
+    <string name="desc_hibiscusBenefits"><b><i>Benefits: </i></b>
+        \n\t\t 1. Health Benifits -
+        \n\t\t - Relief from high blood pressure and high cholesterol,
+        as well as digestive, immune system, and inflammatory problems.
+        \n\t\t - Cure liver disease
+        \n\t\t - Reduces the risk of cancer.
+        \n\t\t - Speed up the metabolism and help in healthy, gradual weight loss.
+        \n
+        \n\t\t - 2. Beauty Benefits-
+        \n\t\t - Rich in Antioxidants. Antioxidants are amazing for your skin's health.
+        \n\t\t - Natural Shampoo
+        \n\t\t - Evens Skin Tone
+        \n\t\t - Intense Moisturizing Action
+        \n\t\t - Encourages Hair Growth
+        \n\t\t - Exfoliates Dead Cells
+        \n\t\t - Delays Premature Graying of Hair
+    </string>
+
+    <string name="desc_jasmine">Jasmine is a genus of shrubs and vines in the olive family. It is a
+        sweet smelling plant that is renowned for its ornamental beauty and distinctive fragrance.
+        Jasmine has small white flowers, although some species have bright yellow, with long shoots
+        that climb. Typically, each flower will have about four to nine petals, two locules, and one
+        to four ovules, with two stamens and very short filaments.
+    </string>
+    <string name="desc_jasmineTip1"><b><i>Growing Tip: </i></b>
+        Choose a warm, sheltered location when growing jasmine. All jasmine plants prefer sun to light
+        shade sites with well-draining and moderately fertile soil. Install the plant in the ground at
+        the same level it was growing in the nursery pot.
+    </string>
+    <string name="desc_jasmineGerm"><b><i>Germination: </i></b> About 6 weeks</string>
+    <string name="desc_jasmineBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Boosts Immunity and Fights Fever
+        \n\t\t - Jasmine Tea Treats Stress
+        \n\t\t - Cures Oral Problems
+        \n\t\t - Heals Injuries
+        \n\t\t - Good For Cardiovascular Health
+    </string>
+
+    <string name="desc_fern">A fern is a member of a group of vascular plants that reproduce via spores
+        and have neither seeds nor flowers. Fern stems are often referred to as rhizomes, even though
+        they grow underground only in some of the species. Leaves are divided into two types a trophophyll
+        and a sporophyll.
+    </string>
+    <string name="desc_fernTip1"><b><i>Growing Tip: </i></b>
+        Just dig a hole that is more or less the same size of the fern pot and plant the fern in the
+        hole so that the plant sits just above (approximately 1 to 2 inches) level. Ensure that the
+        soil has good amount of moisture content but continually damp or wet.
+     </string>
+    <string name="desc_fernGerm"><b><i>Germination: </i></b> 2 - 6 weeks</string>
+    <string name="desc_fernBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Used for Rheumatism
+        \n\t\t - Used for Lungs
+        \n\t\t - Used for Gynecology (including menstrual, postpartum, and breastfeeding)
+        \n\t\t - Used for the Blood
+        \n\t\t - Used for Digestion (including stomach ache and parasites)
+    </string>
+
+    <string name="desc_palm">The Areca Palm is a lovely tree that has gorgeous long, feathery fronds
+        with golden stems that arch over towards the top. They are moderate growers, maturing to a height
+        of 25-30 feet tall and 8-10 feet in width. The Areca Palm is the top choices for an indoor palm.
+        It does not develop a single, upright trunk, but instead grows as a clump with numerous short
+        stems at the base, and upright fronds, growing to 6 feet tall.
+    </string>
+    <string name="desc_palmTip1"><b><i>Growing Tip: </i></b>
+        Allow the top 1-2” of soil to dry out before watering an Areca Palm. Never allow an Areca to
+        sit in water as this causes root rot. It requires bright indirect light.
+     </string>
+    <string name="desc_palmGerm"><b><i>Germination: </i></b> 2 - 6 weeks</string>
+    <string name="desc_palmBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Most efficient air purifying plant
+        \n\t\t - Releases copious amounts of moisture into the air
+        \n\t\t - the areca is consistently rated among the best houseplants for removing all indoor air toxins tested
+    </string>
+
+    <string name="desc_dracaena">Dracaena fragrans is a slow growing shrub,usually multistemmed at the base.
+        They compose of a large group of popular foliage plants. Most grow strongly upright with long,
+        straplike leaves variegated with white, cream, or red. Dracaenas grow well at average room temperatures
+        but don't like cold drafts. Give plants medium to bright light to maintain best leaf color.
+        Allow the soil to dry to the touch between waterings.
+    </string>
+    <string name="desc_dracaenaTip1"><b><i>Growing Tip: </i></b>
+        Dracaena require shed leaves in order to grow new ones. These plants are sensitive to fluoride,
+        which can be found in tap water,  so it's essential to use purified water when caring for this plant.
+     </string>
+    <string name="desc_dracaenaGerm"><b><i>Germination: </i></b> About 30 to 40 days</string>
+    <string name="desc_dracaenaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Ornamental benefits
+        \n\t\t - Air purification
+        \n\t\t - Humidity control
+    </string>
+
+    <string name="desc_azalea">Azaleas are flowering shrubs making up part of the genus Rhododendron.
+        Prefers moist well drained soil in semi-shade. Water well during Summer. Mass plant to create
+        a stunning display. Lovely in decorative tubs and containers. Evergreen early flowering azalea
+        bearing double red flowers.
+    </string>
+    <string name="desc_azaleaTip1"><b><i>Growing Tip: </i></b>
+        Azaleas shrubs should be planted in the spring, preferably within cool, lightly shaded sites.
+        They have shallow roots and require a well-drained, acidic soil.
+     </string>
+    <string name="desc_azaleaGerm"><b><i>Germination: </i></b> 10 days to 3 weeks</string>
+    <string name="desc_azaleaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Combat formaldehyde from sources such as plywood or foam insulation.
+        \n\t\t - Improve indoor air quality in your home or work space
+    </string>
+
+    <string name="desc_dahlia">Dahlias are annual blooming plants, with mostly tuberous roots. While
+        some have herbaceous stems, others have stems which lignify in the absence of secondary tissue
+        and resprout following winter dormancy, allowing further seasons of growth. Each floret is a
+        flower in its own right, but is often incorrectly described as a petal, particularly by horticulturists.
+    </string>
+    <string name="desc_dahliaTip1"><b><i>Growing Tip: </i></b>
+        Grows from seed or from tubers. Plant in rich soil; offer morning sun and protection from wind.
+    </string>
+    <string name="desc_dahliaGerm"><b><i>Germination: </i></b> 10 to 14 days</string>
+    <string name="desc_dahliaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Dahlia flowers can be used as a medicine
+        \n\t\t - Dahlia flowers can be used as a food preservative
+        \n\t\t - Used for decoration
+    </string>
+
+    <string name="desc_lily">A useful shrub for shady parts of the garden, pieris is often grown
+        under taller broad-leafed evergreen trees. Most striking when it is adorned with white, pink,
+        or nearly red flowers in late winter to early spring, it stays attractive throughout the year
+        thanks to its glossy dark green foliage. Since it is taller than it is wide (to an eventual
+        9 by 6 feet), it’s a suitable choice for somewhat narrow spaces.
+    </string>
+    <string name="desc_lilyTip1"><b><i>Growing Tip: </i></b>
+        \n\t\t - Light: Full sun or partial shade; protect from afternoon sun.
+        \n\t\t - Soil: Moist, well-drained soil; cannot tolerate wet soil.
+        \n\t\t - Watering: The key to getting your new shrub or tree off to a good start is moisture.
+        \n\t\t - Fertilizer: We recommend against fertilizing at planting time and during the first growing season in your garden.
+        \n\t\t - Continuing Care: Shelter from wind and afternoon sun, which can encourage their susceptibility to lace bug.
+    </string>
+    <string name="desc_lilyGerm"><b><i>Germination: </i></b>   2 to 6 weeks</string>
+    <string name="desc_lilyBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Reduces Scars
+        \n\t\t - Lightens Skin Tone
+        \n\t\t - Heart Diseases:
+        \n\t\t - Mental Problems:
+        \n\t\t - Treatment Of Chronic Lung Diseases:
+        \n\t\t - Treatment Of Urinary Tract Infection:
+        \n\t\t - Keep Digestion Healthy:
+        \n\t\t - Breaks down kidney stones.
+        \n\t\t - Prevents water retention in the body.
+        \n\t\t - Reduces pain associated with joint problems like gout and rheumatism.
+        \n\t\t - Treats conjunctivitis.
+        \n\t\t - Essential oil is used to treat paralysis, shock, and speech loss.
+        \n\t\t - Helps to treat leprosy and swelling.
+        \n\t\t - Treats poisoning and alcoholism by causing vomiting.
+     </string>
+
+    <string name="desc_orchid">Orchids are easily distinguished from other plants, as they share some
+        very evident, shared derived characteristics, or "apomorphies". Among these are: bilateral
+        symmetry of the flower (zygomorphism), many resupinate flowers, a nearly always highly modified
+        petal (labellum), fused stamens and carpels, and extremely small seeds.
+    </string>
+    <string name="desc_orchidTip1"><b><i>Growing Tip: </i></b>
+        Requires proper light Exposure Right. orchids should be watered once a week.
+    </string>
+    <string name="desc_orchidGerm"><b><i>Germination: </i></b> 1 to 9 months</string>
+    <string name="desc_orchidBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Cures Stomach Ulcer
+        \n\t\t - Cures Menstrual Problems
+        \n\t\t - For Loss Weight
+        \n\t\t - Remedy For Indigestion
+        \n\t\t - Cures Thyroid Problems
+        \n\t\t - Cures Urinary Tract Infection
+        \n\t\t - Quick Relief Constipation
+        \n\t\t - Cures Respiratory Problems
+        \n\t\t - Stimulates The Cell Activity
+        \n\t\t - Improves Overall Health
+    </string>
+
+    <string name="desc_oleander">Nerium oleander, commonly known as oleander, is a highly toxic
+        ornamental shrub that has been cultivated since ancient times. An evergreen shrub (or small
+        tree) that grows to approximately 6 m with thick, gummy, clear sap; leaves opposite or whorled,
+        simple, leathery, with smooth margins and conspicuous pinnate veins; flowers clustered at tip
+        of twigs, 5-parted, funnel-shaped, white, pink, red, or yellow.
+    </string>
+    <string name="desc_oleanderTip1"><b><i>Growing Tip: </i></b>
+        If the soil is poor, feed the plant lightly with a balanced fertilizer during its first spring.
+        Once established, oleander shrubs don\'t require routine fertilization.
+    </string>
+    <string name="desc_oleanderGerm"><b><i>Germination: </i></b>Aprox. 1 months</string>
+    <string name="desc_oleanderBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Helping with muscle cramps.
+        \n\t\t - Natural support for asthma, epilepsy and paralysis.
+        \n\t\t - Help for skin conditions such as eczema.
+        \n\t\t - Powerful all natural organic insecticide.
+        \n\t\t - Usefulness in aiding heart conditions.
+        \n\t\t - Natural support for healthy blood sugar levels
+        \n\t\t - Possible support for the HIV virus
+        \n\t\t - Usefulness in increasing healing times for wounds, when crushed and applied topically
+        \n\t\t - Powerful immune-system stimulator
+        \n\t\t - Promoting normal menstrual cycles
+        \n\t\t - Aiding the body in the fight against arthritis, psoriasis &amp; hepatitis C
+    </string>
+
+    <string name="desc_bougainvillea">Bougainvillea grows as a woody vine or climber, reaching 15 to 40
+        feet with heart-shaped leaves and thorny stems. The flowers are generally small, white, and
+        highlighted by several brightly colored modified leaves called bracts. The bracts can vary
+        in color, ranging from white, red, mauve, purple-red, or orange. Its fruit is a small,
+        inconspicuous, dry, elongated achene.
+    </string>
+    <string name="desc_bougainvilleaTip1"><b><i>Growing Tip: </i></b>
+        To grow bougainvillea, plant it in full sun, slightly acidic and well-drained soil, and a
+        relatively hot and dry climate.
+    </string>
+    <string name="desc_bougainvilleaGerm"><b><i>Germination: </i></b>Aprox. 1 month</string>
+    <string name="desc_bougainvilleaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Bougainvillea leaves are used to cure variety of disorders like for diarrhea, and to reduce stomach acidity.
+        \n\t\t - It is used for cough and sore throat.
+        \n\t\t - Infusion of flowers used as treatment for low blood pressure..
+        \n\t\t - Leaves are use to cure diabetes 2.
+        \n\t\t - Stems help in hepatitis.
+    </string>
+
+    <string name="desc_butterflypea">Butterfly pea is a perennial vine up to three feet long, but it
+        is a twining vine and not a climbing vine so look for this one growing along the ground.
+        Like many plants in the Pea family it has trifoliate leaves. These compound leaves are alternate,
+        stalked, and have three leaflets over an inch long,with the terminal leaflet on a long stalk.
+    </string>
+    <string name="desc_butterflypeaTip1"><b><i>Growing Tip: </i></b>
+        Butterfly pea flowers grow in nearly any type of soil, including nutrient-poor, but sandy,
+        acidic soil is preferable. Water the plant regularly during the first growing season, but
+        beware of overwatering.
+    </string>
+    <string name="desc_butterflypeaGerm"><b><i>Germination: </i></b> 2 to 3 weeks</string>
+    <string name="desc_butterflypeaBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Improve eyesight
+        \n\t\t - Improve hair growth
+        \n\t\t - Improve skin
+        \n\t\t - Aphrodisiac
+        \n\t\t - Antioxidant
+        \n\t\t - Anti-inflammatory
+        \n\t\t - Anti-Asthmatic
+        \n\t\t - Anti-diabetic
+        \n\t\t - Anti-cancer and anti-tumor
+        \n\t\t - Anti-anxiety and depression
+    </string>
+
+    <string name="desc_flame_vine">Butterfly pea is a perennial vine up to three feet long, but it
+        is a twining vine and not a climbing vine so look for this one growing along the ground.
+        Like many plants in the Pea family it has trifoliate leaves. These compound leaves are alternate,
+        stalked, and have three leaflets over an inch long,with the terminal leaflet on a long stalk.
+    </string>
+    <string name="desc_flame_vineTip1"><b><i>Growing Tip: </i></b>
+        Butterfly pea flowers grow in nearly any type of soil, including nutrient-poor, but sandy,
+        acidic soil is preferable. Water the plant regularly during the first growing season, but
+        beware of overwatering.
+    </string>
+    <string name="desc_flame_vineGerm"><b><i>Germination: </i></b> 2 to 3 weeks</string>
+    <string name="desc_flame_vineBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Improve eyesight
+        \n\t\t - Improve hair growth
+        \n\t\t - Improve skin
+        \n\t\t - Aphrodisiac
+        \n\t\t - Antioxidant
+        \n\t\t - Anti-inflammatory
+        \n\t\t - Anti-Asthmatic
+        \n\t\t - Anti-diabetic
+        \n\t\t - Anti-cancer and anti-tumor
+        \n\t\t - Anti-anxiety and depression
+    </string>
+
+    <string name="desc_loofah">Loofah is a genus of tropical and subtropical vines in the cucumber
+        family. Loofah, (genus Luffa), also spelled luffa, also called vegetable sponge, sponge gourd,
+        or rag gourd, genus of seven species of annual climbing vines of the gourd family,native to
+        the Old World tropics.
+    </string>
+    <string name="desc_loofahTip1"><b><i>Growing Tip: </i></b>
+        Loofah yields well in warm climates. It can be grown on any good soil. The plant requires
+        only little water but regular watering is essential.
+    </string>
+    <string name="desc_loofahGerm"><b><i>Germination: </i></b>  7 to 14 days</string>
+    <string name="desc_loofahBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Reduce arthritis
+        \n\t\t - Prevents eye ailments
+        \n\t\t - Cardiovascular benefits
+        \n\t\t - Prevent diabetes
+        \n\t\t - Prevents muscle pain
+        \n\t\t - Reduce arthritis
+        \n\t\t - Treat Anemia
+        \n\t\t - Skin health
+        \n\t\t - Migraine headaches
+    </string>
+
+    <string name="desc_moneyplant">Money plant is a popular houseplant that is grown indoors mostly
+        in water. The plant is called a money plant because its leaves (round, flat, heart-shaped,
+        dark green, and plump) resemble coins. It is a perennial and may be grown as either a trailer
+        or a climber. Young plants bear three- to four-inch-long heart-shaped leaves. This plant is
+        grown mainly indoors. Money plant also used by many people for there fortune and good luck.
+    </string>
+    <string name="desc_moneyplantTip1"><b><i>Growing Tip: </i></b>
+        Money plant should be grown where there is less sunlight or in shade. Do not water them
+        every time, let the soil dry and then water.
+    </string>
+    <string name="desc_moneyplantGerm"><b><i>Germination: </i></b> 5–6 months</string>
+    <string name="desc_moneyplantBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Money plant as one of the best plants to purify air polluted with synthetic chemicals
+        from furniture and cleaning solutions.
+        \n\t\t - It energizes the home by filtering air and increasing oxygen inflow.
+        \n\t\t - Placing a money plant in front of a sharp corner or angle reduces anxiety and stress.
+        \n\t\t - It also helps avoid arguments and sleep disorders.
+        \n\t\t - Money plants activate positive energy in our day-to-day lives.
+    </string>
+
+    <string name="desc_morningGlory">Morning glories are annual climbers with slender stems, heart-shaped
+        leaves, and trumpet-shaped flowers of pink, purple-blue, magenta, or white. They have a beautiful
+        shape before they unfold in the sun and romantic tendrils that lend old-fashioned charm. The
+        flowers bloom from early summer to the first frost. Their big, fragrant, colorful flowers
+        attract butterflies and hummingbirds.
+    </string>
+    <string name="desc_morningGloryTip1"><b><i>Growing Tip: </i></b>
+        Grow annuals in a sunny, sheltered site. They need a lot of sun and moderately fertile, well-drained soil.
+    </string>
+    <string name="desc_morningGloryGerm"><b><i>Germination: </i></b>  5 to 21 days</string>
+    <string name="desc_morningGloryBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Reduced stress and increased sense of well-being
+        \n\t\t - Improve air quality
+        \n\t\t - Reduce background noise
+        \n\t\t - This has been used medicinally in the treatment of various mental disorders.
+        \n\t\t - Morning glory is believed to have antibacterial and antifungal properties too
+        \n\t\t - preventing the onset of various diseases as salmonella poisoning
+    </string>
+
+    <string name="desc_starJasmine">Jasmine is a genus of shrubs and vines in the olive family. It is a
+        sweet smelling plant that is renowned for its ornamental beauty and distinctive fragrance.
+        Jasmine has small white flowers, although some species have bright yellow, with long shoots
+        that climb. Typically, each flower will have about four to nine petals, two locules, and one
+        to four ovules, with two stamens and very short filaments.
+    </string>
+    <string name="desc_starJasmineTip1"><b><i>Growing Tip: </i></b>
+        Choose a warm, sheltered location when growing jasmine. All jasmine plants prefer sun to light
+        shade sites with well-draining and moderately fertile soil. Install the plant in the ground at
+        the same level it was growing in the nursery pot.
+    </string>
+    <string name="desc_starJasmineGerm"><b><i>Germination: </i></b> About 6 weeks</string>
+    <string name="desc_starJasmineBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Boosts Immunity and Fights Fever
+        \n\t\t - Jasmine Tea Treats Stress
+        \n\t\t - Cures Oral Problems
+        \n\t\t - Heals Injuries
+        \n\t\t - Good For Cardiovascular Health
+    </string>
+
+    <string name="desc_tomatoes">The tomato is the edible, often red plant. The Tomato plant has
+        soft and hairy stems. It has 5-9 leaflets and the leaves can be 4 to 24 inches long. The
+        flowers on the tomato plant are small, yellow and have five pointed lobes on the corolla.
+        When the actual fruit is unripe it is green and when it does ripen it is deep red with most varieties.
+    </string>
+    <string name="desc_tomatoesTip1"><b><i>Growing Tip: </i></b>
+        Plant in fertile soil, amended with compost, mulch and provide even moisture. Plant deeper
+        than they were growing in the containers as it makes a stronger roots system.
+    </string>
+    <string name="desc_tomatoesGerm"><b><i>Germination: </i></b>5 to 10 days</string>
+    <string name="desc_tomatoesBenefits"><b><i>Benefits: </i></b>
+        \n\t\t - Improves vision
+        \n\t\t - Helps fight cancer
+        \n\t\t - Maintaining blood health
+        \n\t\t - Reduces risk of heart disease
+        \n\t\t - Good for digestion
+        \n\t\t - Protect the Heart
+        \n\t\t - Lower Hypertension
+        \n\t\t - Skin Care
+        \n\t\t - Prevent Urinary Tract Infections
+        \n\t\t - Manage Diabetes
+    </string>
 
 </resources>
